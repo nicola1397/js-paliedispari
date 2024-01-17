@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pali e Dispari</title>
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+  </head>
+  <body>
+    <div class="d-flex text-center flex-column col-3 gap-3 mx-auto my-5">
+      <label for="parola">Inserisci un numero da 1 a 5</label>
+      <input type="text" id="number" placeholder="3" />
+
+      <div>
+        <button class="btn btn-primary" id="pari">Pari</button>
+        <button class="btn btn-primary" id="dispari">Dispari</button>
+      </div>
+    </div>
+
+    <h2 id="userNumber" class="text-center"></h2>
+    <h2 id="cpuNumber" class="text-center"></h2>
+    <h2 id="somma" class="text-center"></h2>
+    <h2 id="winner" class="text-center"></h2>
+
+    <!-- JAVASCRIPT -->
+    <script type="text/JAVASCRIPT" src="functions.js"></script>
+    <script type="text/JAVASCRIPT" src="script.js"></script>
+  </body>
+</html>
